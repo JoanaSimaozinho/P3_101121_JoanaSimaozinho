@@ -147,6 +147,8 @@ h2 {
 
 .divSection1:hover {
     cursor: pointer;
+    transition: 400ms;
+    overflow: hidden;
     background-color: #f99bf9a1;
 }
 
