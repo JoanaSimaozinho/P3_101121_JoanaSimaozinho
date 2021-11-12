@@ -1,0 +1,248 @@
+@font-face {
+    font-family: 'shrikhand';
+    src: url(Police/Shrikhand-Regular.ttf);
+    font-family: 'roboto';
+    src: url(Police/Roboto-Thin.ttf);
+}
+
+body {
+    margin: 0;
+    font-family: 'roboto';
+}
+
+.title {
+    font-family: 'shrikhand';
+}
+
+main {
+    min-width: 280px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Élèments principaux */
+
+.backgroundColorBlack {
+    background-color: #000;
+}
+
+.backgroundColorGrey {
+    background-color: lightgrey;
+}
+
+.backgroundColorLightgrey {
+    background-color: #F2F2F2;
+}
+
+.backgroundColorWhite {
+    background-color: #FFF;
+}
+
+.colorWhite {
+    color: white;
+}
+
+.colorPurple {
+    color: #9356DC;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.colorPink {
+    color: #FF79DA;
+}
+
+.colorGreen {
+    color: #99E2D0;
+}
+
+.displayFlex {
+    display: flex;
+}
+
+.alignItems {
+    align-items: center;
+}
+
+.justifyCenter {
+    justify-content: center;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.rowReverse {
+    flex-direction: row-reverse;
+}
+
+h2 {
+    margin: 10px 40px 10px 20px;
+} 
+
+.margin5 {
+    margin: 5px;
+}
+
+/* Header */
+.logo {
+    margin: 20px 40px 20px 40px;
+}
+
+.divMap {
+    width: 100%;
+    justify-content: center;
+    height: 30px;
+}
+
+.pHeaderDivMap {
+    font-weight: inherit;
+    padding-left: 10px;
+}
+
+.div2Header {
+    text-align: center;
+    height: 200px;
+}
+
+.h1Header {
+    width: 200px;
+    font-size: larger;
+    text-align: center;
+    margin: 20px 40px 20px 40px;
+}
+
+.p2Header {
+    font-weight: lighter;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.btn1 {
+    border-radius: 50px; 
+    background-image: linear-gradient(#FF79DA 0%, #9356DC 100%); 
+    box-shadow: 3px 5px 7px #D5D5D5; 
+    width: 170px; 
+    height: 40px; 
+    color: #FFF; 
+    border: 0;
+}
+
+/* Section 1 */
+
+.divSection1 {
+    justify-content: space-evenly;
+    border-radius: 25px;
+    background-color: #F2F2F2;
+    width: 95%;
+    margin: 10px 7px 10px 7px;
+}
+
+.divSection1:hover {
+    cursor: pointer;
+    background-color: #f99bf9a1;
+}
+
+.pDivSection1 {
+    border: #9356DC;
+    border-radius: 25px;
+    background-color: #9356DC;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    color: #FFF;
+    position: absolute;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+/* Section 2 */
+figure {
+    border-radius: 10px;
+    width: 90%;
+    margin: 15px;
+    border: 0;
+    box-shadow: 3px 5px 7px #D5D5D5;
+}
+
+figure img {
+    object-fit: cover;
+    width: 100%;
+    height: 168px;
+    border-radius: 10px 10px 0 0;
+}
+
+.pImage {
+    position: absolute;
+    margin-right: 10px;
+    border: 1px solid #99E2D0;
+    background-color: #99E2D0;
+    width: 80px;
+    height: 30px;
+    color: darkgreen;
+}
+
+figure:hover {
+    cursor: pointer;
+}
+
+figcaption {
+    border-radius: 0 0 10px 10px;
+    
+}
+
+figcaption p, figcaption h3 {
+    margin: 0;
+}
+
+figcaption h3 {
+    font-size: medium;
+    padding: 5px 10px 2px 10px;
+}
+
+figcaption p {
+    font-size: smaller;
+    font-weight: initial;
+    padding: 0px 10px 10px 10px;
+}
+
+figcaption i {
+    padding-right: 10px;
+}
+
+/* Menu 1 La palette du goût */
+
+/* Menu 2 La note enchantée */
+
+/* Menu 3 A la française */
+
+/* Menu 4 Le délice des sens */
+
+/* Footer */
+
+footer {
+    height: 170px;
+}
+
+footer img {
+    width: 100px;
+}
+
+.paddingLeftPR {
+    padding-left: 15px;
+}
+
+.paddingLeftPartenaire {
+    padding-left: 8px;
+}
+
+.marginLogoF {
+    margin: 15px 0 10px 15px;
+}
