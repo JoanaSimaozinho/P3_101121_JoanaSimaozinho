@@ -46,6 +46,10 @@ main {
     color: #9356DC;
 }
 
+.colorBlack {
+    color: #000;
+}
+
 a {
     text-decoration: none;
     color: #000;
@@ -149,7 +153,8 @@ h2 {
     cursor: pointer;
     transition: 400ms;
     overflow: hidden;
-    background-color: #f99bf9a1;
+    background-color: #9356DC;
+    opacity: 15%;
 }
 
 .pDivSection1 {
@@ -217,6 +222,7 @@ figcaption p {
 
 figcaption i {
     padding-right: 10px;
+    width: 16px;
 }
 
 /* Menu 1 La palette du goût */
