@@ -32,6 +32,10 @@ main {
     color: white;
 }
 
+.colorPurple {
+    color: #9356DC;
+}
+
 .displayFlex {
     display: flex;
 }
@@ -54,7 +58,7 @@ main {
 }
 
 .margin-left {
-    margin-left: 30px;
+    margin-left: 15px;
 }
 
 /* Header */
