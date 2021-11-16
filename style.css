@@ -176,6 +176,22 @@ h2 {
     color: #FFF;
 }
 
+.animation {
+    transition: .5s;
+    animation: slideDown 5s;
+}
+
+@keyframes slideDown {
+    0% {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
 /* Section 2 */
 figure {
     border-radius: 10px;
