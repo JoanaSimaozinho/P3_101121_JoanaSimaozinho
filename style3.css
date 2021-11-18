@@ -183,6 +183,63 @@ h3 {
     margin: 20px 50px 20px 50px;
 }
 
+.animation {
+    transition: .5s;
+    animation: slideDown 1s ease-in-out 1;
+    animation-fill-mode: both;
+}
+
+.animation1 {
+    animation-delay: 0.5s;
+}
+
+.animation2 {
+    animation-delay: 0.75s;
+}
+
+.animation3 {
+    animation-delay: 1s;
+}
+
+.animation4 {
+    animation-delay: 1.5s;
+}
+
+.animation5 {
+    animation-delay: 1.75s;
+}
+
+.animation6 {
+    animation-delay: 2s;
+}
+
+.animation7 {
+    animation-delay: 2.5s;
+}
+
+.animation8 {
+    animation-delay: 2.75s;
+}
+
+.animation9 {
+    animation-delay: 3s;
+}
+
+.animation10 {
+    animation-delay: 3.5s;
+}
+
+@keyframes slideDown {
+    0% {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
 /* Footer */ 
 
 footer {
