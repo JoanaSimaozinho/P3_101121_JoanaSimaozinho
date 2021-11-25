@@ -186,9 +186,13 @@ h2 {
   padding-right: 10px;
 }
 
+.padding-left {
+  padding-left: 15px;
+}
+
 /* Header */
 .logo {
-  margin: 20px 60px 20px 60px;
+  margin: auto;
   width: 150px;
 }
 
@@ -212,7 +216,7 @@ h2 {
   width: 200px;
   font-size: larger;
   text-align: center;
-  margin: 20px 40px 20px 40px;
+  margin: auto;
 }
 
 .p2Header {
@@ -245,8 +249,8 @@ h2 {
   cursor: pointer;
   transition: 400ms;
   overflow: hidden;
-  background-color: #9356dc;
-  opacity: 15%;
+  background-color: #efdffb;
+  color: #9356dc;
 }
 
 .pDivSection1 {
@@ -372,17 +376,8 @@ figcaption i {
 
 i:hover {
   cursor: pointer;
-}
-
-@keyframes heart1 {
-  0% {
-    position: absolute;
-    color: #000;
-  }
-  100% {
-    position: relative;
-    color: transparent;
-  }
+  color: transparent;
+  background-clip: text;
 }
 
 .i2 {
@@ -394,26 +389,8 @@ i:hover {
 
 .i2:hover {
   cursor: pointer;
+  background-image: linear-gradient(#ff79da 0%, #9356dc 100%);
 }
-
-@keyframes heart2 {
-  0% {
-    position: relative;
-    color: transparent;
-  }
-  100% {
-    position: absolute;
-    background-image: linear-gradient(#ff79da 0%, #9356dc 100%);
-  }
-}
-
-/* Menu 1 La palette du goût */
-
-/* Menu 2 La note enchantée */
-
-/* Menu 3 A la française */
-
-/* Menu 4 Le délice des sens */
 
 /* Footer */
 
