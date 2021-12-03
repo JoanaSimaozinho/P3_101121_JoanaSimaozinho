@@ -108,10 +108,6 @@ a {
   padding-right: 10px;
 }
 
-.margin-right-price {
-  padding-left: 90px;
-}
-
 .width-text {
   font-size: smaller;
   font-weight: 800;
@@ -234,10 +230,11 @@ h3 {
   display: flex;
   align-items: center;
   padding: 10px;
-  margin: 30px 0;
+  margin: 10px 0;
   position: relative;
   overflow: hidden;
   cursor: pointer;
+  justify-content: space-between;
 }
 
 .long-and-truncated {
