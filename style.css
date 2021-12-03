@@ -377,6 +377,8 @@ i:hover {
   width: 32px;
   height: 32px;
   overflow: hidden;
+  cursor: pointer;
+  margin-right: 5px;
 }
 
 .heart-parent .child1 {
