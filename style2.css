@@ -280,8 +280,8 @@ h3 {
 .iCheck {
   color: #fff;
   margin: 25px 20px 20px 28px;
-  transform: rotate(100deg);
-  transition: all 1s ease-in-out;
+  transform: rotate(260deg);
+  transition: all 0.75s ease-in-out;
 }
 
 .flex-parent:hover .iCheck {
