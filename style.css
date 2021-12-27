@@ -1,8 +1,6 @@
 @font-face {
-  font-family: "shrikhand";
-  src: url(./Police/Shrikhand-Regular.ttf);
-  font-family: "roboto";
-  src: url(./Police/Roboto-Thin.ttf);
+  @import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
+  @import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
 }
 
 body {
@@ -150,6 +148,14 @@ a {
   color: #99e2d0;
 }
 
+.colorGray {
+  color: #363636;
+}
+
+.bold {
+  font-weight: bold;
+}
+
 .displayFlex {
   display: flex;
 }
@@ -193,7 +199,6 @@ h2 {
 /* Header */
 .logo {
   margin: 10px 30px 10px 30px;
-  width: 150px;
 }
 
 .divMap {
@@ -209,14 +214,13 @@ h2 {
 
 .div2Header {
   text-align: center;
-  height: 200px;
 }
 
 .h1Header {
   width: 200px;
   font-size: larger;
   text-align: center;
-  margin: auto;
+  margin: 30px auto 20px auto;
 }
 
 .p2Header {
@@ -233,6 +237,7 @@ h2 {
   height: 40px;
   color: #fff;
   border: 0;
+  margin: 20px auto 30px auto;
 }
 
 /* Section 1 */

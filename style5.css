@@ -117,7 +117,6 @@ a {
 
 .logo {
   margin: 20px 40px 20px 40px;
-  width: 150px;
 }
 
 /* Div image et section */
@@ -189,7 +188,7 @@ section {
 }
 
 h3 {
-  border-bottom: 2px solid #99e2d0;
+  border-bottom: 4px solid #99e2d0;
   width: 40px;
   margin-left: 10px;
 }
