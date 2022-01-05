@@ -99,6 +99,10 @@ body {
   font-family: "shrikhand";
 }
 
+.restaurants {
+  padding-top: 40px;
+}
+
 main {
   min-width: 280px;
   max-width: 1200px;
@@ -148,8 +152,8 @@ a {
   color: #99e2d0;
 }
 
-.colorGray {
-  color: #363636;
+.backgroundFooter {
+  background: #363636;
 }
 
 .bold {
@@ -181,7 +185,7 @@ a {
 }
 
 h2 {
-  margin: 20px 40px 20px 10px;
+  margin: 20px 40px 4px 10px;
 }
 
 .margin5 {
@@ -196,15 +200,20 @@ h2 {
   padding-left: 15px;
 }
 
+.marginBottom {
+  margin-bottom: 40px;
+}
+
 /* Header */
 .logo {
-  margin: 10px 30px 10px 30px;
+  margin: 10px 30px 10px 40px;
 }
 
 .divMap {
   width: 100%;
   justify-content: center;
   height: 30px;
+  box-shadow: 2px 5px 2px 5px;
 }
 
 .pHeaderDivMap {
@@ -214,6 +223,7 @@ h2 {
 
 .div2Header {
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .h1Header {
@@ -237,7 +247,7 @@ h2 {
   height: 40px;
   color: #fff;
   border: 0;
-  margin: 20px auto 30px auto;
+  margin: 20px auto 50px auto;
 }
 
 /* Section 1 */
@@ -384,6 +394,7 @@ i:hover {
   overflow: hidden;
   cursor: pointer;
   margin-right: 5px;
+  margin-top: 10px;
 }
 
 .heart-parent .child1 {

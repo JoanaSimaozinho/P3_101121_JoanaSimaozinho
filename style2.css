@@ -82,6 +82,10 @@ main {
   flex-direction: row-reverse;
 }
 
+.backgroundFooter {
+  background: #363636;
+}
+
 .margin5 {
   margin: 5px;
 }
@@ -120,7 +124,7 @@ a {
 /* Header */
 
 .logo {
-  margin: 20px 40px 20px 40px;
+  margin: 20px 40px 20px 50px;
 }
 
 /* Div image et section */
@@ -138,6 +142,7 @@ a {
   overflow: hidden;
   cursor: pointer;
   margin-right: 5px;
+  margin-top: 20px;
 }
 
 .heart-parent .child1 {
@@ -191,7 +196,7 @@ section {
 }
 
 h3 {
-  border-bottom: 2px solid #99e2d0;
+  border-bottom: 3px solid #99e2d0;
   width: 40px;
   margin-left: 10px;
 }
@@ -214,12 +219,6 @@ section {
   background-color: #f2f2f2;
   position: relative;
   margin-top: 150px;
-}
-
-h3 {
-  border-bottom: 4px solid #99e2d0;
-  width: 40px;
-  margin-left: 10px;
 }
 
 .list-item {
@@ -251,6 +250,8 @@ h3 {
 .price {
   white-space: nowrap;
   animation: slideOut 1s;
+  align-self: end;
+  font-weight: bold;
 }
 
 .flex-parent:hover .price {
@@ -356,6 +357,10 @@ h3 {
 
 .animation9 {
   animation-delay: 3s;
+}
+
+.animation10 {
+  animation-delay: 3.5s;
 }
 
 @keyframes slideDown {
