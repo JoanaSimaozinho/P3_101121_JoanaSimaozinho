@@ -159,6 +159,10 @@ footer img {
     width: 22rem;
   }
 
+  a {
+    font-size: 2rem;
+  }
+
   section {
     height: 300px;
   }
@@ -189,6 +193,10 @@ footer img {
   .logo {
     margin: 20px auto 20px 22rem;
     width: 40rem;
+  }
+
+  a {
+    font-size: 2.5rem;
   }
 
   section {
