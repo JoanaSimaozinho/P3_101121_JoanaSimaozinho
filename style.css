@@ -5,7 +5,7 @@
 
 body {
   margin: 0;
-  font-family: "roboto";
+  font-family: "Roboto", sans-serif;
 }
 
 /* Loader barres */
@@ -105,7 +105,7 @@ body {
 
 main {
   min-width: 280px;
-  max-width: 1200px;
+  max-width: 1440px;
   margin: auto;
 }
 
@@ -206,14 +206,17 @@ h2 {
 
 /* Header */
 .logo {
-  margin: 10px 30px 10px 32px;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .divMap {
   width: 100%;
   justify-content: center;
   height: 30px;
-  box-shadow: 2px 5px 2px 5px;
+  box-shadow: 0px 10px 0px 0px;
 }
 
 .pHeaderDivMap {
@@ -256,7 +259,7 @@ h2 {
   justify-content: space-evenly;
   border-radius: 25px;
   background-color: #f2f2f2;
-  width: 95%;
+  width: 100%;
   margin: 10px 7px 10px 7px;
 }
 
@@ -285,6 +288,7 @@ h2 {
   transition: 0.5s;
   animation: slideDown 5s ease-in-out 1;
   animation-fill-mode: both;
+  width: 95%;
 }
 
 .animation1 {
@@ -330,9 +334,10 @@ h2 {
 figure {
   border-radius: 10px;
   width: 90%;
-  margin: 15px;
   border: 0;
   box-shadow: 3px 5px 7px #d5d5d5;
+  margin: auto;
+  margin-bottom: 15px;
 }
 
 figure img {
@@ -458,4 +463,133 @@ footer img {
 
 .marginLogoF {
   margin: 15px 0 10px 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .width {
+    width: 80%;
+  }
+
+  .displayFlex2 {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .a {
+    width: 50%;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .loaderDiv {
+    font-size: 4rem;
+  }
+
+  .loader-bars:before {
+    height: 4rem;
+  }
+
+  .loader-bars::after {
+    height: 4rem;
+  }
+
+  .loader-bars span {
+    height: 4rem;
+  }
+
+  .logo {
+    width: 500px;
+    margin: 30px auto 30px auto;
+  }
+
+  .divMap {
+    height: 4rem;
+  }
+
+  .pHeaderDivMap {
+    font-size: 3rem;
+  }
+
+  i {
+    font-size: 2rem;
+  }
+
+  .h1Header {
+    font-size: 3.7rem;
+    width: 46%;
+  }
+
+  .p2Header {
+    font-size: 2rem;
+  }
+
+  .btn1 {
+    width: 30%;
+    font-size: 2rem;
+    height: 80px;
+  }
+
+  .title {
+    font-size: 3rem;
+  }
+
+  .height {
+    height: 5rem;
+  }
+
+  .pDivSection1 {
+    font-size: 3rem;
+    width: 50px;
+    height: 50px;
+  }
+
+  .divSection1 {
+    height: 4rem;
+  }
+
+  .padding-left {
+    padding-left: 24px;
+  }
+
+  .bold {
+    font-size: 2rem;
+  }
+
+  figure {
+    height: 374px;
+    margin-bottom: 56px;
+  }
+
+  figure img {
+    height: 320px;
+  }
+
+  .heart-parent {
+    padding-right: 2rem;
+  }
+
+  .pImage {
+    margin-right: 30px;
+    width: 154px;
+    height: 70px;
+    font-size: 2rem;
+  }
+
+  .figcaptionP {
+    font-size: x-large;
+  }
+
+  footer {
+    height: 330px;
+  }
+
+  footer img {
+    width: 300px;
+  }
+
+  .margin5 {
+    margin: 10px;
+    font-size: 2rem;
+  }
 }
