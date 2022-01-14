@@ -11,6 +11,12 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+main {
+  min-width: 280px;
+  max-width: 1440px;
+  margin: auto;
+}
+
 /* Loader barres */
 
 .loaderDiv {
@@ -104,12 +110,6 @@ body {
 
 .restaurants {
   padding-top: 40px;
-}
-
-main {
-  min-width: 280px;
-  max-width: 1440px;
-  margin: auto;
 }
 
 /* Élèments principaux */
