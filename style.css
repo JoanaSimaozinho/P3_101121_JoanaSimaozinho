@@ -256,6 +256,13 @@ h2 {
   margin: 20px auto 50px auto;
 }
 
+.btn1:hover {
+  cursor: pointer;
+  transform: scale(1);
+  background-image: linear-gradient(#e783cb 0%, #a379d6 100%);
+  box-shadow: 5px 7px 9px #d5d5d5;
+}
+
 /* Section 1 */
 
 .divSection1 {

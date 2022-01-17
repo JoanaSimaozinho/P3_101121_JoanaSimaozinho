@@ -212,13 +212,11 @@ h3 {
   margin: 20px 50px 20px 50px;
 }
 
-/* Section */
-
-section {
-  border-radius: 25px 25px 0 0;
-  background-color: #f2f2f2;
-  position: relative;
-  margin-top: 150px;
+.btn3:hover {
+  cursor: pointer;
+  transform: scale(1);
+  background-image: linear-gradient(#e783cb 0%, #a379d6 100%);
+  box-shadow: 5px 7px 9px #d5d5d5;
 }
 
 .list-item {
@@ -304,17 +302,6 @@ section {
   to {
     margin-right: 0;
   }
-}
-
-.btn3 {
-  border-radius: 50px;
-  background-image: linear-gradient(#ff79da 0%, #9356dc 100%);
-  box-shadow: 3px 5px 7px #d5d5d5;
-  width: 170px;
-  height: 40px;
-  color: #fff;
-  border: 0;
-  margin: 20px 50px 20px 50px;
 }
 
 .animation {
@@ -516,5 +503,12 @@ footer img {
     font-size: 3rem;
     height: 80px;
     margin: 6rem auto 6rem auto;
+  }
+
+  .btn3:hover {
+    cursor: pointer;
+    transform: scale(1);
+    background-image: linear-gradient(#e783cb 0%, #a379d6 100%);
+    box-shadow: 5px 7px 9px #d5d5d5;
   }
 }

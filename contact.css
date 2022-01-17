@@ -69,7 +69,13 @@ main {
   margin: 10px 40px 10px 40px;
 }
 
+/* Section */
+
 section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: #f2f2f2;
   height: 200px;
 }
@@ -82,16 +88,6 @@ section {
   cursor: pointer;
   text-decoration: underline;
 }
-
-/* Section */
-
-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
 /* Footer */
 
 footer {
