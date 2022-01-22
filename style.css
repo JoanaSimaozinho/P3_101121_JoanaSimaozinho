@@ -483,15 +483,23 @@ footer img {
   .displayFlex2 {
     display: flex;
     gap: 1rem;
+    margin-left: 10px;
+    margin-right: 10px;
   }
+}
 
-  .a {
-    width: 50%;
-    margin-bottom: 20px;
+@media screen and (min-width: 1024px) {
+  .marginBottomSection {
+    height: auto;
   }
 }
 
 @media screen and (min-width: 1440px) {
+  header {
+    max-width: 1440px;
+    margin: auto;
+  }
+
   .loaderDiv {
     font-size: 4rem;
   }
@@ -558,6 +566,10 @@ footer img {
     height: 4rem;
   }
 
+  .marginBottomSection {
+    height: 1000px;
+  }
+
   .padding-left {
     padding-left: 24px;
   }
@@ -601,5 +613,10 @@ footer img {
   .margin5 {
     margin: 10px;
     font-size: 2rem;
+  }
+
+  footer {
+    max-width: 1440px;
+    margin: auto;
   }
 }
